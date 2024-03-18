@@ -13,5 +13,9 @@ public class IFStatement {
             System.out.println("Nilai Sempurna");
         }
 
+
+        // Ternary Operation
+        if (score > 70) System.out.println("Anda lulus!"); // Hanya boleh satu baris code saja
+        else System.out.println("Anda tidak lulus!");
     }
 }
